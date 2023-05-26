@@ -16,7 +16,7 @@ We calculated the correlation between each feature and “SalePrice” column to
 ![image](https://github.com/mariiamhossam/HousePrice_Prediction/assets/65025096/98ae6eac-9d3a-44d2-b4ac-76cff3ed7740)                       
 We decided to eliminate the features that have correlation between -0.12 and 0.12 as this gives the highest accuracy (lowest error)
 # Experiments and Results
-We have tried different models to get the best accuracy:                                                                                    
+We have tried different Regression models to get the best accuracy:                                                                                    
 SVM -> MSE = 0.20832                                                                                                   
 Decision Tree -> MSE = 0.44859                                                                       
 Linear Regression -> MSE = 0.16123 (The Best)                                                                               
