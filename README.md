@@ -21,7 +21,8 @@ SVM -> MSE = 0.20832
 Decision Tree -> MSE = 0.44859                                                                       
 Linear Regression -> MSE = 0.16123 (The Best)                                                                               
 Gradient Boosting Regression -> MSE = 0.23894                                                                                                                  
-# Visualization
+# Dataset Analysis:                                                                                                    
+We used the heat map function to know how each feature affects the other.
 ![image](https://github.com/mariiamhossam/HousePrice_Prediction/assets/65025096/62e00944-1760-4c8b-baa7-736942a0556e)
 
  
