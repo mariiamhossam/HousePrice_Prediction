@@ -1,8 +1,8 @@
 # HousePrice_Prediction
 The objective of the project is to apply different machine learning algorithms to real-world tasks. We will show how to clean data, applying pre-processing, features selection and regression. Given the provided datasets, we would like to understand and predict a house's price based on the provided data.
 # Preprocessing techniques applied on the dataset:
-We applied different techniques to fill nulls in different columns:
-1- With Median                      2-With Zero                         3-With Mode
+We applied different techniques to fill nulls in different columns:                                                                         
+1- With Median			2-With Zero			3-With Mode
 We applied one hot encoding on categorical columns
 We found some columns which their values are ordinal so,can be replaced with ranking dictionaries.
 We applied Scaling (Normalization).
