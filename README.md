@@ -17,10 +17,10 @@ We calculated the correlation between each feature and “SalePrice” column to
 We decided to eliminate the features that have correlation between -0.12 and 0.12 as this gives the highest accuracy (lowest error)
 # Experiments and Results
 We have tried different models to get the best accuracy:
-SVM  MSE = 0.20832
-Decision Tree MSE = 0.44859
-Linear Regression  MSE = 0.16123 (The Best)
-Gradient Boosting Regression  MSE = 0.23894
+SVM -> MSE = 0.20832                                                                                                   
+Decision Tree -> MSE = 0.44859                                                                       
+Linear Regression -> MSE = 0.16123 (The Best)                                                                               
+Gradient Boosting Regression -> MSE = 0.23894                                                                                                                  
 # Visualization
 ![image](https://github.com/mariiamhossam/HousePrice_Prediction/assets/65025096/62e00944-1760-4c8b-baa7-736942a0556e)
 
