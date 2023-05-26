@@ -4,10 +4,10 @@ The objective of the project is to apply different machine learning algorithms t
 We applied different techniques to fill nulls in different columns:                                                                         
 1- With Median			2-With Zero			3-With Mode                                                                  
 We applied one hot encoding on categorical columns
-We found some columns which their values are ordinal so,can be replaced with ranking dictionaries.
-We applied Scaling (Normalization).
- In column “CentralAir” we convert the value ‘Y’ into 1 and the value ‘N’ into 0
- We subtract the values in columns “YearBuilt”, “GarageYrBlt”, “YrSold” and “YearRemodAdd” from the current year to get the number of years "which is important info.
+We found some columns which their values are ordinal so,can be replaced with ranking dictionaries.                                 
+We applied Scaling (Normalization).                                          
+In column “CentralAir” we convert the value ‘Y’ into 1 and the value ‘N’ into 0                                          
+We subtract the values in columns “YearBuilt”, “GarageYrBlt”, “YrSold” and “YearRemodAdd” from the current year to get the number of years "which is important info.
 # Features Selection
 We calculated the correlation between each feature and “SalePrice” column to see how each feature affects the value of this column and to decide which features are important
 ![image](https://github.com/mariiamhossam/HousePrice_Prediction/assets/65025096/60ace10b-69f3-4569-8c14-ae2f3890db74)
